@@ -1,5 +1,4 @@
 # Команды консоли для выполнения задания
-
 mkdir git-practice-task
 cd git-practice-task
 git init
@@ -13,6 +12,9 @@ git branch -M main
 git push -u origin main
 git checkout -b feature/add-second-file
 echo "Это второй файл, созданный в отдельной ветке" > second-file.txt
+cat > console-commands.md << 'EOF'
+"Все команды консоли для выполнения Git задания по работе с репозиторием"
+EOF
 git add .
 git commit -m "Добавлены второй файл и команды консоли"
 git push -u origin feature/add-second-file
