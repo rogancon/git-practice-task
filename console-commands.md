@@ -3,12 +3,12 @@
 mkdir git-practice-task
 cd git-practice-task
 git init
-git config user.name "Ваше Имя"
-git config user.email "your-email@example.com"
+git config user.name "Матвей"
+git config user.email "goatyy@vk.com"
 echo "Это мой первый файл в Git репозитории" > first-file.txt
 git add first-file.txt
 git commit -m "Добавлен первый файл с описанием проекта"
-git remote add origin https://github.com/YOUR-USERNAME/git-practice-task.git
+git remote add origin https://github.com/rogancon/git-practice-task.git
 git branch -M main
 git push -u origin main
 git checkout -b feature/add-second-file
